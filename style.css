@@ -1,24 +1,31 @@
-body{
-    background-color:#4b4b4b ;
+body {
+    background-color: #4b4b4b;
     color: white;
 }
-.box{
+
+.box {
     display: flex;
     box-sizing: border-box;
     width: 100%;
-
 }
-.box2 div{
 
-    width: 450px;
-    height: 550px;
-    border: solid 4px #17c0eb;
-
-}
-.box2{
+.box2 {
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
-    text-align: center;
     justify-content: center;
+    align-items: center;
+}
+
+.box2 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 550px;
+    border: solid 4px #17c0eb;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3), 0 6px 20px rgba(0,0,0,0.19); /* Add shadow effect */
+    background-color: #ffffff; /* Optional: adding a light background color can enhance the shadow effect */
+    color: #4b4b4b; /* Adjust text color for better visibility on light background */
 }
