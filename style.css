@@ -18,14 +18,15 @@ body {
 }
 
 .box2 div {
+    min-width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 450px;
     height: 550px;
-    border: solid 4px #17c0eb;
+    border: solid 4px #dde8eb;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0,0,0,0.3), 0 6px 20px rgba(0,0,0,0.19); 
-    background-color: #ffffff; 
-    color: #4b4b4b; 
+    background-color: #775959; 
+    color: #eee6e6; 
 }
