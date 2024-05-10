@@ -25,7 +25,7 @@ body {
     height: 550px;
     border: solid 4px #17c0eb;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3), 0 6px 20px rgba(0,0,0,0.19); /* Add shadow effect */
-    background-color: #ffffff; /* Optional: adding a light background color can enhance the shadow effect */
-    color: #4b4b4b; /* Adjust text color for better visibility on light background */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3), 0 6px 20px rgba(0,0,0,0.19); 
+    background-color: #ffffff; 
+    color: #4b4b4b; 
 }
