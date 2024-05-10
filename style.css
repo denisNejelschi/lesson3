@@ -10,9 +10,9 @@ body{
 }
 .box2 div{
 
-    width: 350px;
-    height: 350px;
-    border: solid 4px white;
+    width: 450px;
+    height: 550px;
+    border: solid 4px red;
 
 }
 .box2{
