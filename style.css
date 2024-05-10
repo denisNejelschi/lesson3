@@ -2,3 +2,21 @@ body{
     background-color:#4b4b4b ;
     color: white;
 }
+.box{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+.box2 div{
+
+    width: 350px;
+    height: 350px;
+    border: solid 4px white;
+
+}
+.box2{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
